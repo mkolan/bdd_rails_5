@@ -6,6 +6,11 @@ git_source(:github) do |repo_name|
 end
 
 
+gem 'tether-rails', '~> 1.4'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.5'
+gem 'popper_js', '~> 1.14', '>= 1.14.5'
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.7'
 # Use sqlite3 as the database for Active Record
@@ -14,6 +19,9 @@ gem 'sqlite3'
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
